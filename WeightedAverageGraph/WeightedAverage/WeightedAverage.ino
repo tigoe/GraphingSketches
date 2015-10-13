@@ -36,7 +36,7 @@ void loop() {
     average = filterWeight * (sensorReading) + (1 - filterWeight ) * average;
   }
   // print the result:
-  Serial.print(sensorReading);
-  Serial.print(",");
-  Serial.println(average);
+  Serial.println(sensorReading);
+//  Serial.print(",");
+ // Serial.println(average);
 }

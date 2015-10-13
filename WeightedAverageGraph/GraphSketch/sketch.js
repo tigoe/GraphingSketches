@@ -18,7 +18,7 @@ var lastReading = 0.0;                // last mapped sensor reading (for graphin
 var lastAverage = 0.0;                // last mapped average (for graphing)
 var minValue = 0;                     // minimum sensor value. Adjust to fit your needs
 var maxValue = 1023;                  // maximum sensor value. Adjust to fit your needs
-var portName = /dev/cu.usbmodem1411'; // change to the name of your serial port
+var portName = '/dev/cu.usbmodem1411';// change to the name of your serial port
 
 function setup() {
   createCanvas(800, 600);             // set the canvas size
