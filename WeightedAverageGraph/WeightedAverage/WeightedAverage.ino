@@ -8,6 +8,10 @@
   minimally, while a high value will have greater effect on the running
   average.
 
+  For a useful reference on the algorithm, see 
+  http://home.earthlink.net/~david.schultz/rnd/2002/KalmanApogee.pdf
+  p.8, "Filtering the Data"
+  
   based on a version by @VogonJeltz on gitHub
   modified by Tom Igoe
   12 Oct 2015

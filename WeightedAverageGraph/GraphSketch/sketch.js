@@ -51,8 +51,8 @@ function draw() {
     }
     
     // map the current reading and average to the canvas height:
-    var readingY = height - map(thisReading, 0, 1023, 0, height);
-    var averageY = height - map(thisAverage, 0, 1023, 0, height);
+    var readingY = height - map(thisReading, minValue, maxValue, 0, height);
+    var averageY = height - map(thisAverage, minValue, maxValue, 0, height);
     // only draw if you've the xPosition > 0:
     if (xPos > 0) {
       // blue for the reading:
